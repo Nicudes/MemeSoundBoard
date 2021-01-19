@@ -12,6 +12,40 @@
             <Button BackgroundColor="CornflowerBlue" Text="Random"/>
             <Button BackgroundColor="CornflowerBlue" Text="Latest"/>
         </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="10">
+            <Button x:Name="Button_Round1"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    CornerRadius="20"
+                    BorderWidth="2"
+                    BorderColor="Gray"
+                    Text="1"
+                    Clicked="One_Clicked"/>
+            <Button x:Name="Button_Round2"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    CornerRadius="20"
+                    BorderWidth="2"
+                    BorderColor="Gray"
+                    Text="2"
+                    Clicked="Two_Clicked"/>
+            <Button x:Name="Button_Round3"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    CornerRadius="20"
+                    BorderWidth="2"
+                    BorderColor="Gray"
+                    Text="3"
+                    Clicked="Three_Clicked"/>
+            <Button x:Name="Button_Round4"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    CornerRadius="20"
+                    BorderWidth="2"
+                    BorderColor="Gray"
+                    Text="4"
+                    Clicked="Four_Clicked"/>
+        </StackLayout>
         <StackLayout VerticalOptions="EndAndExpand">
             <SearchBar Placeholder="Search..." PlaceholderColor="White" SearchButtonPressed="SearchBar_SearchButtonPressed" CancelButtonColor="White"  TextColor="White"/>
         </StackLayout>
