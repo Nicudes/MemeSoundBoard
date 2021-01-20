@@ -1,4 +1,5 @@
-﻿using Plugin.SimpleAudioPlayer;
+﻿using MemeSounds.Services;
+using Plugin.SimpleAudioPlayer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -67,6 +68,10 @@ namespace MemeSounds
         {
             PlaySound("WinXP.mp3");
         }
-
+        void OnTextChanged(object sender, EventArgs e)
+        {
+            SearchBar searchBar = (SearchBar)sender;
+            searchResults.ItemsSource = DataService.GetSearchResults(searchBar.Text);
+        }
     }
 }

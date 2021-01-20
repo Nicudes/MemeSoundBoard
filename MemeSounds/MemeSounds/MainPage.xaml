@@ -47,7 +47,13 @@
                     Clicked="Four_Clicked"/>
         </StackLayout>
         <StackLayout VerticalOptions="EndAndExpand">
-            <SearchBar Placeholder="Search..." PlaceholderColor="White" SearchButtonPressed="SearchBar_SearchButtonPressed" CancelButtonColor="White"  TextColor="White"/>
+            <SearchBar Placeholder="Search meme..." 
+                       PlaceholderColor="White" 
+                       SearchButtonPressed="SearchBar_SearchButtonPressed" 
+                       CancelButtonColor="White"  
+                       TextColor="White"
+                       TextChanged="OnTextChanged"/>
+            <ListView x:Name="searchResults"/>
         </StackLayout>
     </StackLayout>
     
