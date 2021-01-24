@@ -14,9 +14,18 @@ namespace MemeSounds
 {
     public partial class MainPage : ContentPage
     {
+
+        public string ChosenCategory;
+
         public MainPage()
         {
             InitializeComponent();
+            CategoryPicker.Items.Add("All");
+            CategoryPicker.Items.Add("Anime");
+            CategoryPicker.Items.Add("Troll");
+            CategoryPicker.Items.Add("Effects");
+            CategoryPicker.Items.Add("Music");
+
         }
 
         protected override void OnDisappearing()
@@ -44,34 +53,85 @@ namespace MemeSounds
             return stream;
         }
 
-        private void SearchBar_SearchButtonPressed(object sender, EventArgs e)
+
+
+        private void CategoryPicker_SelectedIndexChanged(object sender, EventArgs e)
         {
+            var ChosenCategory = CategoryPicker.Items[CategoryPicker.SelectedIndex];
+           
+            
+            if (ChosenCategory == "All")
+            {
+                AnimeMemes.IsVisible = true;
+                TrollMemes.IsVisible = true;
+                EffectsMemes.IsVisible = true;
+                MusicMemes.IsVisible = true;
+            }
+            if (ChosenCategory == "Anime")
+            {
+                AnimeMemes.IsVisible = true;
+                TrollMemes.IsVisible = false;
+                EffectsMemes.IsVisible = false;
+                MusicMemes.IsVisible = false;
+            }
+            if (ChosenCategory == "Troll")
+            {
+                AnimeMemes.IsVisible = false;
+                TrollMemes.IsVisible = true;
+                EffectsMemes.IsVisible = false;
+                MusicMemes.IsVisible = false;
+            }
+            if (ChosenCategory == "Effects")
+            {
+                AnimeMemes.IsVisible = false;
+                TrollMemes.IsVisible = false;
+                EffectsMemes.IsVisible = true;
+                MusicMemes.IsVisible = false;
+            }
+            if (ChosenCategory == "Music")
+            {
+                AnimeMemes.IsVisible = false;
+                TrollMemes.IsVisible = false;
+                EffectsMemes.IsVisible = false;
+                MusicMemes.IsVisible = true;
+            }
 
         }
 
-        private void One_Clicked(object sender, EventArgs e)
+        //Anime Sound Clicks ------------------------------------------
+        private void DeJaVuAnime_Clicked(object sender, EventArgs e)
         {
-            PlaySound("Bruh.mp3");
+            PlaySound("DejaVuAnime.mp3");
         }
 
-        private void Two_Clicked(object sender, EventArgs e)
-        {
-            PlaySound("OhNo.mp3");
-        }
-
-        private void Three_Clicked(object sender, EventArgs e)
+        private void Nani_Clicked(object sender, EventArgs e)
         {
             PlaySound("Nani.mp3");
         }
 
-        private void Four_Clicked(object sender, EventArgs e)
+        private void OraOra_Clicked(object sender, EventArgs e)
         {
-            PlaySound("WinXP.mp3");
+            PlaySound("OraOra");
         }
-        void OnTextChanged(object sender, EventArgs e)
+
+
+        //Troll Sound Clicks ------------------------------------------
+        private void Bruh_Clicked(object sender, EventArgs e)
         {
-            SearchBar searchBar = (SearchBar)sender;
-            searchResults.ItemsSource = DataService.GetSearchResults(searchBar.Text);
+            PlaySound("Bruh.mp3");
+        }
+
+        //Effects Sound Clicks ------------------------------------------
+        private void AirHorn_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("AirHorn.mp3");
+        }
+
+        //Music Sound Clicks ------------------------------------------
+
+        private void CoffinDance_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("CoffinDance.mp3");
         }
     }
 }

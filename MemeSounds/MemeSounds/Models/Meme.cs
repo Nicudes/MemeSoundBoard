@@ -8,7 +8,6 @@ namespace MemeSounds.Models
     {
         public string MemeName { get; set; }
         public string MemeCategory { get; set; }
-        public string SearchWords { get; set; } 
-        
+        public string FileName { get; set; }
     }
 }

@@ -7,25 +7,17 @@ namespace MemeSounds.Services
 {
     public class MemeData
     {
-        public static List<Meme> MemeList = new List<Meme>();
+        public static List<Meme> AnimeMemeList = new List<Meme>();
 
 
 
-        public void GetMemeList()
+        public void GetAnimeMemeList()
         {
-            MemeList.Add(new Meme() { 
+            AnimeMemeList.Add(new Meme() { 
             
-                MemeName = "",
-                MemeCategory = "",
-                SearchWords = ""
-            });
-
-            MemeList.Add(new Meme()
-            {
-
-                MemeName = "",
-                MemeCategory = "",
-                SearchWords = ""
+                MemeName = "Nani",
+                MemeCategory = "Anime",
+                FileName = "Nani.mp3"
             });
         }
 
