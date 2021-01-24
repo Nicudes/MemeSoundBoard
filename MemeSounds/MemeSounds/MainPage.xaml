@@ -10,15 +10,18 @@
         <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
             <Label
                 Margin="0,5,0,0"
+                FontAttributes="Bold"
                 FontSize="Large"
-                Text="Category" />
+                Text="Category:"
+                TextColor="White" />
             <Picker
                 x:Name="CategoryPicker"
                 HorizontalOptions="Center"
                 SelectedIndexChanged="CategoryPicker_SelectedIndexChanged"
                 TextColor="White"
                 TitleColor="White"
-                VerticalTextAlignment="Center" />
+                VerticalTextAlignment="Center"
+                WidthRequest="100" />
         </StackLayout>
 
         <StackLayout

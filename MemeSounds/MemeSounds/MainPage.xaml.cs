@@ -101,37 +101,37 @@ namespace MemeSounds
         //Anime Sound Clicks ------------------------------------------
         private void DeJaVuAnime_Clicked(object sender, EventArgs e)
         {
-            PlaySound("DejaVuAnime.mp3");
+            PlaySound("AnimeMemes.DejaVuAnime.mp3");
         }
 
         private void Nani_Clicked(object sender, EventArgs e)
         {
-            PlaySound("Nani.mp3");
+            PlaySound("AnimeMemes.Nani.mp3");
         }
 
         private void OraOra_Clicked(object sender, EventArgs e)
         {
-            PlaySound("OraOra");
+            PlaySound("AnimeMemes.OraOra.mp3");
         }
 
 
         //Troll Sound Clicks ------------------------------------------
         private void Bruh_Clicked(object sender, EventArgs e)
         {
-            PlaySound("Bruh.mp3");
+            PlaySound("TrollMemes.Bruh.mp3");
         }
 
         //Effects Sound Clicks ------------------------------------------
         private void AirHorn_Clicked(object sender, EventArgs e)
         {
-            PlaySound("AirHorn.mp3");
+            PlaySound("EffectsMemes.AirHorn.mp3");
         }
 
         //Music Sound Clicks ------------------------------------------
 
         private void CoffinDance_Clicked(object sender, EventArgs e)
         {
-            PlaySound("CoffinDance.mp3");
+            PlaySound("MusicMemes.CoffinDance.mp3");
         }
     }
 }

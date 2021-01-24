@@ -11,10 +11,83 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="MemeSounds\AnimeMemes\DejaVuAnime.mp3" />
+    <None Remove="MemeSounds\AnimeMemes\Nani.mp3" />
+    <None Remove="MemeSounds\AnimeMemes\OraOra.mp3" />
     <None Remove="MemeSounds\Bruh.mp3" />
+    <None Remove="MemeSounds\EffectsMemes\AirHorn.mp3" />
+    <None Remove="MemeSounds\EffectsMemes\Error.mp3" />
+    <None Remove="MemeSounds\EffectsMemes\Fail.mp3" />
+    <None Remove="MemeSounds\EffectsMemes\FBIOpen.mp3" />
+    <None Remove="MemeSounds\EffectsMemes\Ouf.mp3" />
+    <None Remove="MemeSounds\EffectsMemes\WinXP.mp3" />
+    <None Remove="MemeSounds\EffectsMemes\WowSound.mp3" />
+    <None Remove="MemeSounds\MusicMemes\CoffinDance.mp3" />
+    <None Remove="MemeSounds\MusicMemes\DanceIt.mp3" />
+    <None Remove="MemeSounds\MusicMemes\Darude.mp3" />
+    <None Remove="MemeSounds\MusicMemes\EpicSax.mp3" />
+    <None Remove="MemeSounds\MusicMemes\MemeEnd.mp3" />
+    <None Remove="MemeSounds\MusicMemes\OhWhatUSay.mp3" />
+    <None Remove="MemeSounds\MusicMemes\PeppaPig.mp3" />
+    <None Remove="MemeSounds\MusicMemes\RickRoll.mp3" />
+    <None Remove="MemeSounds\MusicMemes\RunEffect.mp3" />
+    <None Remove="MemeSounds\MusicMemes\SadFail.mp3" />
+    <None Remove="MemeSounds\MusicMemes\SadViolin.mp3" />
+    <None Remove="MemeSounds\MusicMemes\Skrah.mp3" />
+    <None Remove="MemeSounds\MusicMemes\SmokeWeed.mp3" />
+    <None Remove="MemeSounds\MusicMemes\SnoopDog.mp3" />
+    <None Remove="MemeSounds\MusicMemes\trollolo.mp3" />
     <None Remove="MemeSounds\Nani.mp3" />
     <None Remove="MemeSounds\OhNo.mp3" />
+    <None Remove="MemeSounds\TrollMemes\Bruh.mp3" />
+    <None Remove="MemeSounds\TrollMemes\EndCareer.mp3" />
+    <None Remove="MemeSounds\TrollMemes\FakeLaugh.mp3" />
+    <None Remove="MemeSounds\TrollMemes\FartNormal.mp3" />
+    <None Remove="MemeSounds\TrollMemes\IGotU.mp3" />
+    <None Remove="MemeSounds\TrollMemes\ItIsWhatItIs.mp3" />
+    <None Remove="MemeSounds\TrollMemes\OhNo.mp3" />
+    <None Remove="MemeSounds\TrollMemes\Shrek.mp3" />
+    <None Remove="MemeSounds\TrollMemes\TheyAskYou.mp3" />
+    <None Remove="MemeSounds\TrollMemes\YouWhat.mp3" />
     <None Remove="MemeSounds\WinXP.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="MemeSounds\AnimeMemes\DejaVuAnime.mp3" />
+    <EmbeddedResource Include="MemeSounds\AnimeMemes\Nani.mp3" />
+    <EmbeddedResource Include="MemeSounds\AnimeMemes\OraOra.mp3" />
+    <EmbeddedResource Include="MemeSounds\EffectsMemes\AirHorn.mp3" />
+    <EmbeddedResource Include="MemeSounds\EffectsMemes\Error.mp3" />
+    <EmbeddedResource Include="MemeSounds\EffectsMemes\Fail.mp3" />
+    <EmbeddedResource Include="MemeSounds\EffectsMemes\FBIOpen.mp3" />
+    <EmbeddedResource Include="MemeSounds\EffectsMemes\Ouf.mp3" />
+    <EmbeddedResource Include="MemeSounds\EffectsMemes\WinXP.mp3" />
+    <EmbeddedResource Include="MemeSounds\EffectsMemes\WowSound.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\CoffinDance.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\DanceIt.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\Darude.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\EpicSax.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\MemeEnd.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\OhWhatUSay.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\PeppaPig.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\RickRoll.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\RunEffect.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\SadFail.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\SadViolin.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\Skrah.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\SmokeWeed.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\SnoopDog.mp3" />
+    <EmbeddedResource Include="MemeSounds\MusicMemes\trollolo.mp3" />
+    <EmbeddedResource Include="MemeSounds\TrollMemes\Bruh.mp3" />
+    <EmbeddedResource Include="MemeSounds\TrollMemes\EndCareer.mp3" />
+    <EmbeddedResource Include="MemeSounds\TrollMemes\FakeLaugh.mp3" />
+    <EmbeddedResource Include="MemeSounds\TrollMemes\FartNormal.mp3" />
+    <EmbeddedResource Include="MemeSounds\TrollMemes\IGotU.mp3" />
+    <EmbeddedResource Include="MemeSounds\TrollMemes\ItIsWhatItIs.mp3" />
+    <EmbeddedResource Include="MemeSounds\TrollMemes\OhNo.mp3" />
+    <EmbeddedResource Include="MemeSounds\TrollMemes\Shrek.mp3" />
+    <EmbeddedResource Include="MemeSounds\TrollMemes\TheyAskYou.mp3" />
+    <EmbeddedResource Include="MemeSounds\TrollMemes\YouWhat.mp3" />
   </ItemGroup>
 
   <ItemGroup>
