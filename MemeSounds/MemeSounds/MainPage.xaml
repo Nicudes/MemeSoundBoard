@@ -53,6 +53,10 @@
                 Clicked="Bruh_Clicked"
                 HeightRequest="50"
                 Source="icon" />
+            <ImageButton
+                Clicked="EndCareer_Clicked"
+                HeightRequest="50"
+                Source="icon" />
         </StackLayout>
         <StackLayout
             x:Name="EffectsMemes"

@@ -121,6 +121,11 @@ namespace MemeSounds
             PlaySound("TrollMemes.Bruh.mp3");
         }
 
+        private void EndCareer_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EndCareer.mp3");
+        }
+
         //Effects Sound Clicks ------------------------------------------
         private void AirHorn_Clicked(object sender, EventArgs e)
         {
