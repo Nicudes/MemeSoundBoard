@@ -99,6 +99,14 @@ namespace MemeSounds
         }
 
         //Anime Sound Clicks ------------------------------------------
+        private void AnimeSpeedSong_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("AnimeMemes.AnimeSpeedSong.mp3");
+        }
+        private void AraAra_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("AnimeMemes.AraAra.mp3");
+        }
         private void DeJaVuAnime_Clicked(object sender, EventArgs e)
         {
             PlaySound("AnimeMemes.DejaVuAnime.mp3");
@@ -114,8 +122,9 @@ namespace MemeSounds
             PlaySound("AnimeMemes.OraOra.mp3");
         }
 
-
+        //-------------------------------------------------------------
         //Troll Sound Clicks ------------------------------------------
+        //-------------------------------------------------------------
         private void Bruh_Clicked(object sender, EventArgs e)
         {
             PlaySound("TrollMemes.Bruh.mp3");

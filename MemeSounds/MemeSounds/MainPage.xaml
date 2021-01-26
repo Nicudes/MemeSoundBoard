@@ -48,8 +48,18 @@
                 HeightRequest="50"
                 Source="icon" />
             </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <ImageButton
+                Clicked="AnimeSpeedSong_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                        <ImageButton
+                Clicked="AraAra_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                    </StackLayout>
 
-        </StackLayout>
+                </StackLayout>
         <StackLayout
             x:Name="TrollMemes"
             Margin="10"
