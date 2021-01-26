@@ -29,56 +29,107 @@
             Margin="10"
             HorizontalOptions="CenterAndExpand"
             IsVisible="True"
-            Orientation="Horizontal">
-            <ImageButton
+            Orientation="Vertical">
+            <StackLayout Orientation="Horizontal">
+                <ImageButton
                 Clicked="DeJaVuAnime_Clicked"
                 HeightRequest="50"
                 Source="icon" />
-            <ImageButton
+                <ImageButton
                 Clicked="Nani_Clicked"
                 HeightRequest="50"
                 Source="icon" />
-            <ImageButton
+                <ImageButton
                 Clicked="OraOra_Clicked"
                 HeightRequest="50"
                 Source="icon" />
+            </StackLayout>
+
         </StackLayout>
         <StackLayout
             x:Name="TrollMemes"
             Margin="10"
             HorizontalOptions="CenterAndExpand"
             IsVisible="True"
-            Orientation="Horizontal">
-            <ImageButton
+            Orientation="Vertical">
+            <StackLayout Orientation="Horizontal">
+                <ImageButton
                 Clicked="Bruh_Clicked"
                 HeightRequest="50"
                 Source="icon" />
-            <ImageButton
+                <ImageButton
                 Clicked="EndCareer_Clicked"
                 HeightRequest="50"
                 Source="icon" />
+                <ImageButton
+                Clicked="FakeLaugh_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <ImageButton
+                Clicked="FartNormal_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="IGotU_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="ItIsWhatItIs_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <ImageButton
+                Clicked="OhNo_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="Shrek_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="TheyAskYou_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <ImageButton
+                Clicked="YouWhat_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+            </StackLayout>
+
+            
         </StackLayout>
         <StackLayout
             x:Name="EffectsMemes"
             Margin="10"
             HorizontalOptions="CenterAndExpand"
             IsVisible="True"
-            Orientation="Horizontal">
-            <ImageButton
+            Orientation="Vertical">
+            <StackLayout Orientation="Horizontal">
+                <ImageButton
                 Clicked="AirHorn_Clicked"
                 HeightRequest="50"
                 Source="icon" />
+            </StackLayout>
+
         </StackLayout>
         <StackLayout
             x:Name="MusicMemes"
             Margin="10"
             HorizontalOptions="CenterAndExpand"
             IsVisible="True"
-            Orientation="Horizontal">
-            <ImageButton
+            Orientation="Vertical">
+            <StackLayout Orientation="Horizontal">
+                <ImageButton
                 Clicked="CoffinDance_Clicked"
                 HeightRequest="50"
                 Source="icon" />
+            </StackLayout>
+
         </StackLayout>
 
 
