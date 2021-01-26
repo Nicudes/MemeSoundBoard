@@ -123,7 +123,39 @@ namespace MemeSounds
 
         private void EndCareer_Clicked(object sender, EventArgs e)
         {
-            PlaySound("EndCareer.mp3");
+            PlaySound("TrollMemes.EndCareer.mp3");
+        }
+        private void FakeLaugh_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.FakeLaugh.mp3");
+        }
+        private void FartNormal_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.FartNormal.mp3");
+        }
+        private void IGotU_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.IGotU.mp3");
+        }
+        private void ItIsWhatItIs_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.ItIsWhatItIs.mp3");
+        }
+        private void OhNo_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.OhNo.mp3");
+        }
+        private void Shrek_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.Shrek.mp3");
+        }
+        private void TheyAskYou_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.TheyAskYou.mp3");
+        }
+        private void YouWhat_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.YouWhat.mp3");
         }
 
         //Effects Sound Clicks ------------------------------------------
