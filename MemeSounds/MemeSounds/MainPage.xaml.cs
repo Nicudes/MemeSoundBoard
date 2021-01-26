@@ -98,6 +98,7 @@ namespace MemeSounds
 
         }
 
+        #region ANIME
         //Anime Sound Clicks ------------------------------------------
         private void AnimeSpeedSong_Clicked(object sender, EventArgs e)
         {
@@ -121,6 +122,8 @@ namespace MemeSounds
         {
             PlaySound("AnimeMemes.OraOra.mp3");
         }
+        #endregion
+        #region TROLL
 
         //-------------------------------------------------------------
         //Troll Sound Clicks ------------------------------------------
@@ -237,18 +240,230 @@ namespace MemeSounds
         {
             PlaySound("TrollMemes.YouWhat.mp3");
         }
+        #endregion
 
+        #region EFFECTS
         //Effects Sound Clicks ------------------------------------------
         private void AirHorn_Clicked(object sender, EventArgs e)
         {
             PlaySound("EffectsMemes.AirHorn.mp3");
         }
+        private void BadumTs_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.BadumTs.mp3");
+        }
+        private void CSEnemySpoted_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.CSEnemySpoted.mp3");
+        }
+        private void DiscordConnected_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.DiscordConnected.mp3");
+        }
+        private void DiscordNotification_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.DiscordNotification.mp3");
+        }
+        private void Error_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.Error.mp3");
+        }
+        private void Fail_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.Fail.mp3");
+        }
+        private void FBIOpen_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.FBIOpen.mp3");
+        }
+        private void GhostAttack_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.GhostAttack.mp3");
+        }
+        private void GhostGroan_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.GhostGroan.mp3");
+        }
+        private void GTADeath_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.GTADeath.mp3");
+        }
+        private void Headshot_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.Headshot.mp3");
+        }
+        private void HereComesTheMoney_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.HereComesTheMoney.mp3");
+        }
+        private void MailMotherfucker_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.MailMotherfucker.mp3");
+        }
+        private void MissionFailed_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.MissionFailed.mp3");
+        }
+        private void MissionImpossible_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.MissionImpossible.mp3");
+        }
+        private void Nut_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.Nut.mp3");
+        }
+        private void ObiHelloThere_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.ObiHelloThere.mp3");
+        }
+        private void Ouf_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.Ouf.mp3");
+        }
+        private void Quack_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.Quack.mp3");
+        }
+        private void SadTrombone_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.SadTrombone.mp3");
+        }
+        private void WinXP_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.WinXP.mp3");
+        }
+        private void WowSound_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.WowSound.mp3");
+        }
+        private void Wrong_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.Wrong.mp3");
+        }
+        private void Yeet_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("EffectsMemes.Yeet.mp3");
+        }
+        #endregion
 
+        #region MUSIC
         //Music Sound Clicks ------------------------------------------
-
+        private void AmongUs_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.AmongUs.mp3");
+        }
+        private void Celebration_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.Celebration.mp3");
+        }
         private void CoffinDance_Clicked(object sender, EventArgs e)
         {
             PlaySound("MusicMemes.CoffinDance.mp3");
         }
+        private void CrabRave_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.CrabRave.mp3");
+        }
+        private void CykaBlyatSong_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.CykaBlyatSong.mp3");
+        }
+        private void DanceIt_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.DanceIt.mp3");
+        }
+        private void Darude_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.Darude.mp3");
+        }
+        private void EpicSax_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.EpicSax.mp3");
+        }
+        private void HelloDarknessMyOldFriend_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.HelloDarknessMyOldFriend.mp3");
+        }
+        private void ItsMyLifeRuski_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.ItsMyLifeRuski.mp3");
+        }
+        private void MemeEnd_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.MemeEnd.mp3");
+        }
+        private void OhWhatUSay_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.OhWhatUSay.mp3");
+        }
+        private void OhYouTouchMy_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.OhYouTouchMy.mp3");
+        }
+        private void OhYeah_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.OhYeah.mp3");
+        }
+        private void PeppaPig_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.PeppaPig.mp3");
+        }
+        private void RickRoll_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.RickRoll.mp3");
+        }
+        private void RunEffect_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.RunEffect.mp3");
+        }
+        private void SadFail_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.SadFail.mp3");
+        }
+        private void SadViolin_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.SadViolin.mp3");
+        }
+        private void SeinfeldTheme_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.SeinfeldTheme.mp3");
+        }
+        private void SexySong_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.SexySong.mp3");
+        }
+        private void ShootingStarsSong_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.ShootingStarsSong.mp3");
+        }
+        private void Skrah_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.Skrah.mp3");
+        }
+        private void SmokeWeed_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.SmokeWeed.mp3");
+        }
+        private void SnoopDog_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.SnoopDog.mp3");
+        }
+        private void TitanicFlute_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.TitanicFlute.mp3");
+        }
+        private void Trollolo_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.trollolo.mp3");
+        }
+        private void UGotThat_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.UGotThat.mp3");
+        }
+        private void UniversalMusicScream_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("MusicMemes.UniversalMusicScream.mp3");
+        } 
+        #endregion
     }
 }
