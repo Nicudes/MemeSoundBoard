@@ -120,7 +120,22 @@ namespace MemeSounds
         {
             PlaySound("TrollMemes.Bruh.mp3");
         }
-
+        private void Damn_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.Damn.mp3");
+        }
+        private void DarthVaderNo_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.DarthVaderNo.mp3");
+        }
+        private void DoorKnock_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.DoorKnock.mp3");
+        }
+        private void DryFart_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.DryFart.mp3");
+        }
         private void EndCareer_Clicked(object sender, EventArgs e)
         {
             PlaySound("TrollMemes.EndCareer.mp3");
@@ -133,25 +148,81 @@ namespace MemeSounds
         {
             PlaySound("TrollMemes.FartNormal.mp3");
         }
+        private void FuckThisShitImOut_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.FuckThisShitImOut.mp3");
+        }
+        private void HeFuckedUp_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.HeFuckedUp.mp3");
+        }
         private void IGotU_Clicked(object sender, EventArgs e)
         {
             PlaySound("TrollMemes.IGotU.mp3");
+        }
+        private void InsideTheirHead_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.InsideTheirHead.mp3");
         }
         private void ItIsWhatItIs_Clicked(object sender, EventArgs e)
         {
             PlaySound("TrollMemes.ItIsWhatItIs.mp3");
         }
+        private void MyNameIsJeff_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.MyNameIsJeff.mp3");
+        }
+        private void NelsonHaha_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.NelsonHaha.mp3");
+        }
+        private void Nope_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.Nope.mp3");
+        }
         private void OhNo_Clicked(object sender, EventArgs e)
         {
             PlaySound("TrollMemes.OhNo.mp3");
+        }
+        private void PHDrums_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.PHDrums.mp3");
         }
         private void Shrek_Clicked(object sender, EventArgs e)
         {
             PlaySound("TrollMemes.Shrek.mp3");
         }
+        private void ShutUp_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.ShutUp.mp3");
+        }
+        private void SupriseMotherFucker_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.SupriseMotherfucker.mp3");
+        }
         private void TheyAskYou_Clicked(object sender, EventArgs e)
         {
             PlaySound("TrollMemes.TheyAskYou.mp3");
+        }
+        private void ToBeContinue_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.ToBeContinue.mp3");
+        }
+        private void WhatAreUDoingStepBro_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.WhatAreUDoingStepBro.mp3");
+        }
+        private void WhyAreYouRunning_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.WhyAreURunning.mp3");
+        }
+        private void WhyUBullyMe_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.WhyUBullyMe.mp3");
+        }
+        private void WhyUhaffToBeSad_Clicked(object sender, EventArgs e)
+        {
+            PlaySound("TrollMemes.WhyUhaffToBeSad.mp3");
         }
         private void YouWhat_Clicked(object sender, EventArgs e)
         {

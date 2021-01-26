@@ -6,7 +6,9 @@
     Title="FirstPage"
     BackgroundImageSource="memebackground">
 
+    
     <StackLayout>
+        
         <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
             <Label
                 Margin="0,5,0,0"
@@ -23,7 +25,9 @@
                 VerticalTextAlignment="Center"
                 WidthRequest="100" />
         </StackLayout>
+        <ScrollView>
 
+            <StackLayout>
         <StackLayout
             x:Name="AnimeMemes"
             Margin="10"
@@ -99,9 +103,91 @@
                 Clicked="YouWhat_Clicked"
                 HeightRequest="50"
                 Source="icon" />
+                <ImageButton
+                Clicked="DarthVaderNo_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="DoorKnock_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <ImageButton
+                Clicked="DryFart_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="FuckThisShitImOut_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="HeFuckedUp_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <ImageButton
+                Clicked="InsideTheirHead_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="MyNameIsJeff_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="NelsonHaha_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <ImageButton
+                Clicked="Nope_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="PHDrums_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="ShutUp_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <ImageButton
+                Clicked="SupriseMotherFucker_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="ToBeContinue_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="WhatAreUDoingStepBro_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <ImageButton
+                Clicked="WhyAreYouRunning_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="WhyUBullyMe_Clicked"
+                HeightRequest="50"
+                Source="icon" />
+                <ImageButton
+                Clicked="WhyUhaffToBeSad_Clicked"
+                HeightRequest="50"
+                Source="icon" />
             </StackLayout>
 
-            
+
+
+
+
+
         </StackLayout>
         <StackLayout
             x:Name="EffectsMemes"
@@ -131,8 +217,8 @@
             </StackLayout>
 
         </StackLayout>
-
-
+            </StackLayout>
+        </ScrollView>
     </StackLayout>
 
 
