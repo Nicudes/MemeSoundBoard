@@ -28,11 +28,7 @@ namespace MemeSounds
 
         }
 
-        protected override void OnDisappearing()
-        {
-            player.Stop();
-            base.OnDisappearing();
-        }
+
 
         
 
@@ -44,6 +40,12 @@ namespace MemeSounds
             player.Stop();
             player.Load(GetStreamFromFile(soundName));
             player.Play();
+        }
+
+        protected override void OnDisappearing()
+        {
+            player.Stop();
+            base.OnDisappearing();
         }
 
         Stream GetStreamFromFile(string filename)
