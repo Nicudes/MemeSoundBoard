@@ -42,11 +42,12 @@ namespace MemeSounds
             player.Play();
         }
 
-        protected override void OnDisappearing()
+        protected override bool OnBackButtonPressed()
         {
             player.Stop();
-            base.OnDisappearing();
+            return base.OnBackButtonPressed();
         }
+
 
         Stream GetStreamFromFile(string filename)
         {
