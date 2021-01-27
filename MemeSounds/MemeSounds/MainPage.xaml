@@ -6,9 +6,9 @@
     Title="FirstPage"
     BackgroundImageSource="memebackground">
 
-    
+
     <StackLayout>
-        
+
         <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
             <Label
                 Margin="0,5,0,0"
@@ -28,205 +28,238 @@
         <ScrollView>
 
             <StackLayout>
-        <StackLayout
-            x:Name="AnimeMemes"
-            Margin="10"
-            HorizontalOptions="CenterAndExpand"
-            IsVisible="True"
-            Orientation="Vertical">
-            <StackLayout Orientation="Horizontal">
-                <ImageButton
-                Clicked="DeJaVuAnime_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="Nani_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="OraOra_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-            </StackLayout>
+                <StackLayout
+                    x:Name="AnimeMemes"
+                    Margin="10"
+                    HorizontalOptions="CenterAndExpand"
+                    IsVisible="True"
+                    Orientation="Vertical">
+                    <Image HeightRequest="20" Source="AnimeBanner" />
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
-                Clicked="AnimeSpeedSong_Clicked"
-                HeightRequest="50"
-                Source="icon" />
+                            BackgroundColor="Transparent"
+                            Clicked="DeJaVuAnime_Clicked"
+                            HeightRequest="40"
+                            Source="DejaVuAnime" />
                         <ImageButton
-                Clicked="AraAra_Clicked"
-                HeightRequest="50"
-                Source="icon" />
+                            BackgroundColor="Transparent"
+                            Clicked="Nani_Clicked"
+                            HeightRequest="40"
+                            Source="Nani" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="OraOra_Clicked"
+                            HeightRequest="40"
+                            Source="OraOra" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="AnimeSpeedSong_Clicked"
+                            HeightRequest="40"
+                            Source="AnimeSpeedSong.png" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="AraAra_Clicked"
+                            HeightRequest="40"
+                            Source="AraAra" />
                     </StackLayout>
 
                 </StackLayout>
-        <StackLayout
-            x:Name="TrollMemes"
-            Margin="10"
-            HorizontalOptions="CenterAndExpand"
-            IsVisible="True"
-            Orientation="Vertical">
-            <StackLayout Orientation="Horizontal">
-                <ImageButton
-                Clicked="Bruh_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="EndCareer_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="FakeLaugh_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <ImageButton
-                Clicked="FartNormal_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="IGotU_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="ItIsWhatItIs_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <ImageButton
-                Clicked="OhNo_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="Shrek_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="TheyAskYou_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <ImageButton
-                Clicked="YouWhat_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="DarthVaderNo_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="DoorKnock_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <ImageButton
-                Clicked="DryFart_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="FuckThisShitImOut_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="HeFuckedUp_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <ImageButton
-                Clicked="InsideTheirHead_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="MyNameIsJeff_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="NelsonHaha_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <ImageButton
-                Clicked="Nope_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="PHDrums_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="ShutUp_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <ImageButton
-                Clicked="SupriseMotherFucker_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="ToBeContinue_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="WhatAreUDoingStepBro_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <ImageButton
-                Clicked="WhyAreYouRunning_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="WhyUBullyMe_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-                <ImageButton
-                Clicked="WhyUhaffToBeSad_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-            </StackLayout>
+                <StackLayout
+                    x:Name="TrollMemes"
+                    Margin="10"
+                    HorizontalOptions="CenterAndExpand"
+                    IsVisible="True"
+                    Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal">
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="Bruh_Clicked"
+                            HeightRequest="40"
+                            Source="Bruh" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="EndCareer_Clicked"
+                            HeightRequest="40"
+                            Source="EndCareer" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="FakeLaugh_Clicked"
+                            HeightRequest="40"
+                            Source="FakeLaugh" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="FartNormal_Clicked"
+                            HeightRequest="40"
+                            Source="FartNormal" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="IGotU_Clicked"
+                            HeightRequest="40"
+                            Source="IGotU" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="ItIsWhatItIs_Clicked"
+                            HeightRequest="40"
+                            Source="ItIsWhatItIs" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="OhNo_Clicked"
+                            HeightRequest="40"
+                            Source="OhNo" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="Shrek_Clicked"
+                            HeightRequest="40"
+                            Source="Shrek" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="TheyAskYou_Clicked"
+                            HeightRequest="40"
+                            Source="TheyAskYou" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="YouWhat_Clicked"
+                            HeightRequest="40"
+                            Source="YouWhat" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="DarthVaderNo_Clicked"
+                            HeightRequest="40"
+                            Source="DarthVaderNo" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="DoorKnock_Clicked"
+                            HeightRequest="40"
+                            Source="DoorKnock" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="DryFart_Clicked"
+                            HeightRequest="40"
+                            Source="DryFart" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="FuckThisShitImOut_Clicked"
+                            HeightRequest="40"
+                            Source="FuckThisShitImOut" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="HeFuckedUp_Clicked"
+                            HeightRequest="40"
+                            Source="HeFuckedUp" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="InsideTheirHead_Clicked"
+                            HeightRequest="40"
+                            Source="InsideTheirHead" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="MyNameIsJeff_Clicked"
+                            HeightRequest="40"
+                            Source="MyNameIsJeff" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="NelsonHaha_Clicked"
+                            HeightRequest="40"
+                            Source="NelsonHaha" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="Nope_Clicked"
+                            HeightRequest="40"
+                            Source="Nope" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="PHDrums_Clicked"
+                            HeightRequest="40"
+                            Source="PHDrums" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="ShutUp_Clicked"
+                            HeightRequest="40"
+                            Source="ShutUp" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="SupriseMotherFucker_Clicked"
+                            HeightRequest="40"
+                            Source="SupriseMotherFucker" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="ToBeContinue_Clicked"
+                            HeightRequest="40"
+                            Source="ToBeContinue" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="WhatAreUDoingStepBro_Clicked"
+                            HeightRequest="40"
+                            Source="WhatAreUDoingStepBro" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="WhyAreYouRunning_Clicked"
+                            HeightRequest="40"
+                            Source="WhyAreYouRunning" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="WhyUBullyMe_Clicked"
+                            HeightRequest="40"
+                            Source="WhyUBullyMe" />
+                        <ImageButton
+                            BackgroundColor="Transparent"
+                            Clicked="WhyUhaffToBeSad_Clicked"
+                            HeightRequest="40"
+                            Source="WhyUHaffToBeSad" />
+                    </StackLayout>
 
 
 
 
 
 
-        </StackLayout>
-        <StackLayout
-            x:Name="EffectsMemes"
-            Margin="10"
-            HorizontalOptions="CenterAndExpand"
-            IsVisible="True"
-            Orientation="Vertical">
-            <StackLayout Orientation="Horizontal">
-                <ImageButton
-                Clicked="AirHorn_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-            </StackLayout>
+                </StackLayout>
+                <StackLayout
+                    x:Name="EffectsMemes"
+                    Margin="10"
+                    HorizontalOptions="CenterAndExpand"
+                    IsVisible="True"
+                    Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal">
+                        <ImageButton
+                            Clicked="AirHorn_Clicked"
+                            HeightRequest="50"
+                            Source="icon" />
+                    </StackLayout>
 
-        </StackLayout>
-        <StackLayout
-            x:Name="MusicMemes"
-            Margin="10"
-            HorizontalOptions="CenterAndExpand"
-            IsVisible="True"
-            Orientation="Vertical">
-            <StackLayout Orientation="Horizontal">
-                <ImageButton
-                Clicked="CoffinDance_Clicked"
-                HeightRequest="50"
-                Source="icon" />
-            </StackLayout>
+                </StackLayout>
+                <StackLayout
+                    x:Name="MusicMemes"
+                    Margin="10"
+                    HorizontalOptions="CenterAndExpand"
+                    IsVisible="True"
+                    Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal">
+                        <ImageButton
+                            Clicked="CoffinDance_Clicked"
+                            HeightRequest="50"
+                            Source="icon" />
+                    </StackLayout>
 
-        </StackLayout>
+                </StackLayout>
             </StackLayout>
         </ScrollView>
     </StackLayout>
