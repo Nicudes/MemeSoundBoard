@@ -113,7 +113,7 @@
     <EmbeddedResource Include="MemeSounds\EffectsMemes\AirHorn.mp3" />
     <EmbeddedResource Include="MemeSounds\EffectsMemes\BadumTs.mp3" />
     <EmbeddedResource Include="MemeSounds\EffectsMemes\CSEnemySpoted.mp3" />
-    <EmbeddedResource Include="MemeSounds\EffectsMemes\DIscordConnected.mp3" />
+    <EmbeddedResource Include="MemeSounds\EffectsMemes\DiscordConnected.mp3" />
     <EmbeddedResource Include="MemeSounds\EffectsMemes\DiscordNotification.mp3" />
     <EmbeddedResource Include="MemeSounds\EffectsMemes\Error.mp3" />
     <EmbeddedResource Include="MemeSounds\EffectsMemes\Fail.mp3" />
