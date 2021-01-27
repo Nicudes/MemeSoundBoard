@@ -74,8 +74,9 @@
                     x:Name="TrollMemes"
                     Margin="10"
                     HorizontalOptions="CenterAndExpand"
-                    IsVisible="True"
+                    IsVisible="true"
                     Orientation="Vertical">
+                    <Image HeightRequest="20" Source="TrollBanner" />
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
                             BackgroundColor="Transparent"
@@ -244,123 +245,149 @@
                     HorizontalOptions="CenterAndExpand"
                     IsVisible="True"
                     Orientation="Vertical">
+                    <Image HeightRequest="20" Source="EffectBanner" />
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="AirHorn_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="AirHorn" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="BadumTs_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="BadumTs" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="CSEnemySpoted_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="CSEnemySpoted" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="DiscordConnected_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="DIscordConnected" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="DiscordNotification_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="DiscordNotification" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="Error_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="Error" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="Fail_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="Fail" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="FBIOpen_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="FBIOpen" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="GhostAttack_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="GhostAttack" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="GhostGroan_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="GhostGroan" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="GTADeath_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="GTADeath" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="Headshot_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="Headshot" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="HereComesTheMoney_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="HereComesTheMoney" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="MailMotherfucker_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="MailMotherfucker" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="MissionFailed_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="MissionFailed" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="MissionImpossible_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="MissionImpossible" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="Nut_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="Nut" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="ObiHelloThere_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="ObiHelloThere" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="Ouf_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="Ouf" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="Quack_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="Quack" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="SadTrombone_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="SadTrombone" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="WinXP_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="WinXP" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="WowSound_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="WowSound" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="Wrong_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="Buzzer" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="Yeet_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="Yeet" />
                     </StackLayout>
 
                 </StackLayout>
@@ -373,141 +400,171 @@
                     HorizontalOptions="CenterAndExpand"
                     IsVisible="True"
                     Orientation="Vertical">
+                    <Image HeightRequest="20" Source="MusicBanner" />
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="CoffinDance_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="CoffinDance" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="AmongUs_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="AmongUs" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="Celebration_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="Celebration" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="CrabRave_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="CrabRave" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="CykaBlyatSong_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="CykaBlyatSong" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="DanceIt_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="DanceIt" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="Darude_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="Darude" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="EpicSax_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="EpicSax" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="HelloDarknessMyOldFriend_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="HelloDarknessMyOldFriend" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="ItsMyLifeRuski_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="ItsMyLifeRuski" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="MemeEnd_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="MemeEnd" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="OhWhatUSay_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="OhWhatUSay" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="OhYeah_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="OhYeah" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="OhYouTouchMy_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="OhYouTouchMy" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="PeppaPig_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="PeppaPig" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="RickRoll_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="RickRoll" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="RunEffect_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="RunEffect" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="SadFail_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="SadFail" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="SeinfeldTheme_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="SeinfeldTheme" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="SexySong_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="SexySong" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="ShootingStarsSong_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="ShootingStarsSong" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="Skrah_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="Skrah" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="SmokeWeed_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="SmokeWeed" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="SnoopDog_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="SnoopDog" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="TitanicFlute_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="TitanicFlute" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="Trollolo_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="Trollolo" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="UGotThat_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="UGotThat" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="UniversalMusicScream_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="UniversalMusicScream" />
                         <ImageButton
+                            BackgroundColor="Transparent"
                             Clicked="SadViolin_Clicked"
-                            HeightRequest="50"
-                            Source="icon" />
+                            HeightRequest="40"
+                            Source="SadViolin" />
                     </StackLayout>
 
                 </StackLayout>

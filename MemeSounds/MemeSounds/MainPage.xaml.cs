@@ -34,6 +34,8 @@ namespace MemeSounds
             base.OnDisappearing();
         }
 
+        
+
         ISimpleAudioPlayer player = Plugin.SimpleAudioPlayer.CrossSimpleAudioPlayer.Current;
 
 
