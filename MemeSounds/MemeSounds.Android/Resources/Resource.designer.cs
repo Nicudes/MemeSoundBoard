@@ -8469,7 +8469,7 @@ namespace MemeSounds.Droid
 			public const int MemeEnd = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int MemeLogo4 = 2131165330;
+			public const int MemeLogoFinal = 2131165330;
 			
 			// aapt resource value: 0x7F070093
 			public const int MissionFailed = 2131165331;
