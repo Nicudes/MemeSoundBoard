@@ -1,4 +1,5 @@
-﻿using MemeSounds.Services;
+﻿using MarcTron.Plugin;
+using MemeSounds.Services;
 using Plugin.SimpleAudioPlayer;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,8 @@ namespace MemeSounds
 
         public string ChosenCategory;
 
+        private int clickCounter = 0;
+
         public MainPage()
         {
             InitializeComponent();
@@ -30,16 +33,22 @@ namespace MemeSounds
 
 
 
+        protected override void OnAppearing()
+        {
 
+        }
 
         ISimpleAudioPlayer player = Plugin.SimpleAudioPlayer.CrossSimpleAudioPlayer.Current;
 
 
         void PlaySound(string soundName)
         {
+
+            CrossMTAdmob.Current.LoadInterstitial("ca-app-pub-3940256099942544/1033173712");
             player.Stop();
             player.Load(GetStreamFromFile(soundName));
             player.Play();
+            
         }
 
         protected override bool OnBackButtonPressed()
@@ -111,7 +120,9 @@ namespace MemeSounds
         }
         private void AraAra_Clicked(object sender, EventArgs e)
         {
-            PlaySound("AnimeMemes.AraAra.mp3");
+
+            checkPlays("AnimeMemes.AraAra.mp3");
+
         }
         private void DeJaVuAnime_Clicked(object sender, EventArgs e)
         {
@@ -468,7 +479,29 @@ namespace MemeSounds
         private void UniversalMusicScream_Clicked(object sender, EventArgs e)
         {
             PlaySound("MusicMemes.UniversalMusicScream.mp3");
-        } 
+        }
         #endregion
+
+        void checkPlays(string soundName)
+        {
+            if (clickCounter >= 2)
+            {
+                StartAd();
+            }
+            else
+            {
+
+                PlaySound(soundName);
+                clickCounter++;
+
+            }
+        }
+
+        void StartAd()
+        {
+
+            CrossMTAdmob.Current.ShowInterstitial();
+            clickCounter = 0;
+        }
     }
 }

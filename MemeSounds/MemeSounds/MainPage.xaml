@@ -9,7 +9,7 @@
 
 
     <StackLayout>
-        <local:AdMobView AdUnitId="ca-app-pub-3940256099942544/6300978111" WidthRequest="320" HeightRequest="50"/>
+        <local:AdMobView AdUnitId="ca-app-pub-5447250798341508/8288529265" WidthRequest="320" HeightRequest="50"/>
 
         <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
             <Label
