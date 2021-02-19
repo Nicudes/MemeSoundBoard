@@ -3,11 +3,13 @@
     x:Class="MemeSounds.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MemeSounds.controls"
     Title="FirstPage"
     BackgroundImageSource="memebackground">
 
 
     <StackLayout>
+        <local:AdMobView AdUnitId="ca-app-pub-3940256099942544/6300978111" WidthRequest="320" HeightRequest="50"/>
 
         <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
             <Label
@@ -28,7 +30,6 @@
         <ScrollView>
 
             <StackLayout>
-
                 <!--  ANIMEMEMES  -->
                 <StackLayout
                     x:Name="AnimeMemes"

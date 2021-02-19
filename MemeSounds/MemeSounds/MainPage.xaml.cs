@@ -30,7 +30,7 @@ namespace MemeSounds
 
 
 
-        
+
 
         ISimpleAudioPlayer player = Plugin.SimpleAudioPlayer.CrossSimpleAudioPlayer.Current;
 
@@ -63,8 +63,8 @@ namespace MemeSounds
         private void CategoryPicker_SelectedIndexChanged(object sender, EventArgs e)
         {
             var ChosenCategory = CategoryPicker.Items[CategoryPicker.SelectedIndex];
-           
-            
+
+
             if (ChosenCategory == "All")
             {
                 AnimeMemes.IsVisible = true;
